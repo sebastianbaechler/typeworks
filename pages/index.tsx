@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import Typearea from '../components/typearea/Typearea';
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <section></section>
+        <Typearea />
       </main>
 
       <footer>
@@ -30,3 +31,8 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+/*
+TODO: Text input prop
+TODO: overlay user cursor typing with what they have to type
+*/
